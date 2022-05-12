@@ -15,10 +15,10 @@ analysis
 
 #Background:
 
-•The software has been developed
-using Python
+•The software has been developed by
+using Visual Basic & Python
 
-•Fault analysis has been done using
+•Fault analysis has been done by using
 the symmetrical component
 method
 
