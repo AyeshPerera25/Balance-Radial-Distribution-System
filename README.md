@@ -31,5 +31,7 @@ unsymmetrical faults are analyzed
 Credits: PasanBhanu/load-flow-solver-ui
 This extention dedicated for handling the fault analysis part of the developed Load Flow Solver software.
 
-![image](https://user-images.githubusercontent.com/56757563/169152164-72092c21-1b7b-4cea-beae-900843011fc8.png)
+![image](https://mega.nz/file/Dvp31IxI#k9CIBXy3XFMZLIRc63Ebd32usbuCSSoYubdKQsIzP2M)
+
+
 
