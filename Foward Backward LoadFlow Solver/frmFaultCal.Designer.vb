@@ -134,30 +134,31 @@ Partial Class frmFaultCal
         Me.ColumnHeader36 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.tabDG = New System.Windows.Forms.TabPage()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox11 = New System.Windows.Forms.GroupBox()
+        Me.radbTurnIIDG = New System.Windows.Forms.RadioButton()
+        Me.radbDG = New System.Windows.Forms.RadioButton()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.txtDGGndSqRe = New System.Windows.Forms.TextBox()
+        Me.btnDG = New System.Windows.Forms.Button()
         Me.txtDGGndSqIm = New System.Windows.Forms.TextBox()
+        Me.Label35 = New System.Windows.Forms.Label()
         Me.Label54 = New System.Windows.Forms.Label()
         Me.Label55 = New System.Windows.Forms.Label()
+        Me.txtDGConnctNode = New System.Windows.Forms.TextBox()
         Me.txtDGPosSqRe = New System.Windows.Forms.TextBox()
+        Me.txtDGZeroSqIm = New System.Windows.Forms.TextBox()
         Me.Label56 = New System.Windows.Forms.Label()
+        Me.txtDGZeroSqRe = New System.Windows.Forms.TextBox()
         Me.txtDGPosSqIm = New System.Windows.Forms.TextBox()
+        Me.Label59 = New System.Windows.Forms.Label()
         Me.Label57 = New System.Windows.Forms.Label()
+        Me.txtDGNegSqIm = New System.Windows.Forms.TextBox()
         Me.txtDGNegSqRe = New System.Windows.Forms.TextBox()
         Me.Label58 = New System.Windows.Forms.Label()
-        Me.txtDGNegSqIm = New System.Windows.Forms.TextBox()
-        Me.Label59 = New System.Windows.Forms.Label()
-        Me.txtDGZeroSqRe = New System.Windows.Forms.TextBox()
-        Me.txtDGZeroSqIm = New System.Windows.Forms.TextBox()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.btnDG = New System.Windows.Forms.Button()
-        Me.Label35 = New System.Windows.Forms.Label()
-        Me.txtDGConnctNode = New System.Windows.Forms.TextBox()
         Me.listDG = New System.Windows.Forms.ListView()
         Me.ColumnHeader22 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader23 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader25 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader26 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader27 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader28 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -166,6 +167,29 @@ Partial Class frmFaultCal
         Me.ColumnHeader31 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader32 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader33 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader25 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.tabIIDG = New System.Windows.Forms.TabPage()
+        Me.ListView2 = New System.Windows.Forms.ListView()
+        Me.ColumnHeader46 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader47 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader48 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader49 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader50 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader51 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader52 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader53 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader54 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label51 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label60 = New System.Windows.Forms.Label()
         Me.tabFaultCalSet = New System.Windows.Forms.TabPage()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
         Me.panFaultViewer = New System.Windows.Forms.Panel()
@@ -206,28 +230,6 @@ Partial Class frmFaultCal
         Me.btnSave = New System.Windows.Forms.Button()
         Me.lstFaultLog = New System.Windows.Forms.ListBox()
         Me.Label39 = New System.Windows.Forms.Label()
-        Me.tabIIDG = New System.Windows.Forms.TabPage()
-        Me.GroupBox10 = New System.Windows.Forms.GroupBox()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label51 = New System.Windows.Forms.Label()
-        Me.Label60 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label61 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.ListView2 = New System.Windows.Forms.ListView()
-        Me.ColumnHeader46 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader47 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader48 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader49 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader50 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader51 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader52 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader53 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader54 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.btnTFUpdate.SuspendLayout()
         Me.tabLineImp.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -240,12 +242,13 @@ Partial Class frmFaultCal
         Me.GroupBox8.SuspendLayout()
         Me.tabDG.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
+        Me.GroupBox11.SuspendLayout()
+        Me.tabIIDG.SuspendLayout()
+        Me.GroupBox10.SuspendLayout()
         Me.tabFaultCalSet.SuspendLayout()
         Me.GroupBox7.SuspendLayout()
         Me.panFaultViewer.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
-        Me.tabIIDG.SuspendLayout()
-        Me.GroupBox10.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnTFUpdate
@@ -1280,6 +1283,7 @@ Partial Class frmFaultCal
         'GroupBox4
         '
         Me.GroupBox4.BackColor = System.Drawing.SystemColors.Control
+        Me.GroupBox4.Controls.Add(Me.GroupBox11)
         Me.GroupBox4.Controls.Add(Me.Label52)
         Me.GroupBox4.Controls.Add(Me.Label53)
         Me.GroupBox4.Controls.Add(Me.txtDGGndSqRe)
@@ -1306,6 +1310,43 @@ Partial Class frmFaultCal
         Me.GroupBox4.TabIndex = 25
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Parameters"
+        '
+        'GroupBox11
+        '
+        Me.GroupBox11.Controls.Add(Me.radbTurnIIDG)
+        Me.GroupBox11.Controls.Add(Me.radbDG)
+        Me.GroupBox11.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox11.Location = New System.Drawing.Point(21, 76)
+        Me.GroupBox11.Name = "GroupBox11"
+        Me.GroupBox11.Size = New System.Drawing.Size(291, 60)
+        Me.GroupBox11.TabIndex = 46
+        Me.GroupBox11.TabStop = False
+        Me.GroupBox11.Text = "DG Type"
+        Me.GroupBox11.UseWaitCursor = True
+        '
+        'radbTurnIIDG
+        '
+        Me.radbTurnIIDG.AutoSize = True
+        Me.radbTurnIIDG.Location = New System.Drawing.Point(152, 26)
+        Me.radbTurnIIDG.Name = "radbTurnIIDG"
+        Me.radbTurnIIDG.Size = New System.Drawing.Size(104, 23)
+        Me.radbTurnIIDG.TabIndex = 1
+        Me.radbTurnIIDG.TabStop = True
+        Me.radbTurnIIDG.Text = "Turn to IIDG"
+        Me.radbTurnIIDG.UseVisualStyleBackColor = True
+        Me.radbTurnIIDG.UseWaitCursor = True
+        '
+        'radbDG
+        '
+        Me.radbDG.AutoSize = True
+        Me.radbDG.Location = New System.Drawing.Point(54, 26)
+        Me.radbDG.Name = "radbDG"
+        Me.radbDG.Size = New System.Drawing.Size(47, 23)
+        Me.radbDG.TabIndex = 0
+        Me.radbDG.TabStop = True
+        Me.radbDG.Text = "DG"
+        Me.radbDG.UseVisualStyleBackColor = True
+        Me.radbDG.UseWaitCursor = True
         '
         'Label52
         '
@@ -1336,6 +1377,16 @@ Partial Class frmFaultCal
         Me.txtDGGndSqRe.TabIndex = 42
         Me.txtDGGndSqRe.Text = "0"
         '
+        'btnDG
+        '
+        Me.btnDG.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.btnDG.Location = New System.Drawing.Point(174, 411)
+        Me.btnDG.Name = "btnDG"
+        Me.btnDG.Size = New System.Drawing.Size(139, 27)
+        Me.btnDG.TabIndex = 3
+        Me.btnDG.Text = "Update"
+        Me.btnDG.UseVisualStyleBackColor = False
+        '
         'txtDGGndSqIm
         '
         Me.txtDGGndSqIm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1344,6 +1395,16 @@ Partial Class frmFaultCal
         Me.txtDGGndSqIm.Size = New System.Drawing.Size(107, 20)
         Me.txtDGGndSqIm.TabIndex = 43
         Me.txtDGGndSqIm.Text = "0"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.Location = New System.Drawing.Point(17, 48)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(88, 13)
+        Me.Label35.TabIndex = 16
+        Me.Label35.Text = "Connected Node"
         '
         'Label54
         '
@@ -1365,6 +1426,16 @@ Partial Class frmFaultCal
         Me.Label55.TabIndex = 41
         Me.Label55.Text = "Zero Sequence Impedance"
         '
+        'txtDGConnctNode
+        '
+        Me.txtDGConnctNode.BackColor = System.Drawing.SystemColors.Window
+        Me.txtDGConnctNode.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.txtDGConnctNode.Location = New System.Drawing.Point(111, 45)
+        Me.txtDGConnctNode.Name = "txtDGConnctNode"
+        Me.txtDGConnctNode.ReadOnly = True
+        Me.txtDGConnctNode.Size = New System.Drawing.Size(94, 20)
+        Me.txtDGConnctNode.TabIndex = 8
+        '
         'txtDGPosSqRe
         '
         Me.txtDGPosSqRe.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1373,6 +1444,15 @@ Partial Class frmFaultCal
         Me.txtDGPosSqRe.Size = New System.Drawing.Size(94, 20)
         Me.txtDGPosSqRe.TabIndex = 30
         Me.txtDGPosSqRe.Text = "0"
+        '
+        'txtDGZeroSqIm
+        '
+        Me.txtDGZeroSqIm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDGZeroSqIm.Location = New System.Drawing.Point(191, 292)
+        Me.txtDGZeroSqIm.Name = "txtDGZeroSqIm"
+        Me.txtDGZeroSqIm.Size = New System.Drawing.Size(107, 20)
+        Me.txtDGZeroSqIm.TabIndex = 35
+        Me.txtDGZeroSqIm.Text = "0"
         '
         'Label56
         '
@@ -1384,6 +1464,15 @@ Partial Class frmFaultCal
         Me.Label56.TabIndex = 40
         Me.Label56.Text = "+ j"
         '
+        'txtDGZeroSqRe
+        '
+        Me.txtDGZeroSqRe.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDGZeroSqRe.Location = New System.Drawing.Point(75, 292)
+        Me.txtDGZeroSqRe.Name = "txtDGZeroSqRe"
+        Me.txtDGZeroSqRe.Size = New System.Drawing.Size(94, 20)
+        Me.txtDGZeroSqRe.TabIndex = 34
+        Me.txtDGZeroSqRe.Text = "0"
+        '
         'txtDGPosSqIm
         '
         Me.txtDGPosSqIm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1392,6 +1481,16 @@ Partial Class frmFaultCal
         Me.txtDGPosSqIm.Size = New System.Drawing.Size(107, 20)
         Me.txtDGPosSqIm.TabIndex = 31
         Me.txtDGPosSqIm.Text = "0"
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label59.Location = New System.Drawing.Point(170, 180)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(18, 13)
+        Me.Label59.TabIndex = 36
+        Me.Label59.Text = "+ j"
         '
         'Label57
         '
@@ -1402,6 +1501,15 @@ Partial Class frmFaultCal
         Me.Label57.Size = New System.Drawing.Size(158, 13)
         Me.Label57.TabIndex = 39
         Me.Label57.Text = "Negative Sequence Impedance"
+        '
+        'txtDGNegSqIm
+        '
+        Me.txtDGNegSqIm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDGNegSqIm.Location = New System.Drawing.Point(191, 236)
+        Me.txtDGNegSqIm.Name = "txtDGNegSqIm"
+        Me.txtDGNegSqIm.Size = New System.Drawing.Size(107, 20)
+        Me.txtDGNegSqIm.TabIndex = 33
+        Me.txtDGNegSqIm.Text = "0"
         '
         'txtDGNegSqRe
         '
@@ -1421,83 +1529,6 @@ Partial Class frmFaultCal
         Me.Label58.Size = New System.Drawing.Size(18, 13)
         Me.Label58.TabIndex = 38
         Me.Label58.Text = "+ j"
-        '
-        'txtDGNegSqIm
-        '
-        Me.txtDGNegSqIm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDGNegSqIm.Location = New System.Drawing.Point(191, 236)
-        Me.txtDGNegSqIm.Name = "txtDGNegSqIm"
-        Me.txtDGNegSqIm.Size = New System.Drawing.Size(107, 20)
-        Me.txtDGNegSqIm.TabIndex = 33
-        Me.txtDGNegSqIm.Text = "0"
-        '
-        'Label59
-        '
-        Me.Label59.AutoSize = True
-        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.Location = New System.Drawing.Point(170, 180)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(18, 13)
-        Me.Label59.TabIndex = 36
-        Me.Label59.Text = "+ j"
-        '
-        'txtDGZeroSqRe
-        '
-        Me.txtDGZeroSqRe.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDGZeroSqRe.Location = New System.Drawing.Point(75, 292)
-        Me.txtDGZeroSqRe.Name = "txtDGZeroSqRe"
-        Me.txtDGZeroSqRe.Size = New System.Drawing.Size(94, 20)
-        Me.txtDGZeroSqRe.TabIndex = 34
-        Me.txtDGZeroSqRe.Text = "0"
-        '
-        'txtDGZeroSqIm
-        '
-        Me.txtDGZeroSqIm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDGZeroSqIm.Location = New System.Drawing.Point(191, 292)
-        Me.txtDGZeroSqIm.Name = "txtDGZeroSqIm"
-        Me.txtDGZeroSqIm.Size = New System.Drawing.Size(107, 20)
-        Me.txtDGZeroSqIm.TabIndex = 35
-        Me.txtDGZeroSqIm.Text = "0"
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Label33.Location = New System.Drawing.Point(454, 234)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(73, 13)
-        Me.Label33.TabIndex = 98
-        Me.Label33.Text = "Rated Current"
-        '
-        'btnDG
-        '
-        Me.btnDG.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.btnDG.Location = New System.Drawing.Point(174, 411)
-        Me.btnDG.Name = "btnDG"
-        Me.btnDG.Size = New System.Drawing.Size(139, 27)
-        Me.btnDG.TabIndex = 3
-        Me.btnDG.Text = "Update"
-        Me.btnDG.UseVisualStyleBackColor = False
-        '
-        'Label35
-        '
-        Me.Label35.AutoSize = True
-        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(17, 48)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(88, 13)
-        Me.Label35.TabIndex = 16
-        Me.Label35.Text = "Connected Node"
-        '
-        'txtDGConnctNode
-        '
-        Me.txtDGConnctNode.BackColor = System.Drawing.SystemColors.Window
-        Me.txtDGConnctNode.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.txtDGConnctNode.Location = New System.Drawing.Point(111, 45)
-        Me.txtDGConnctNode.Name = "txtDGConnctNode"
-        Me.txtDGConnctNode.ReadOnly = True
-        Me.txtDGConnctNode.Size = New System.Drawing.Size(94, 20)
-        Me.txtDGConnctNode.TabIndex = 8
         '
         'listDG
         '
@@ -1521,31 +1552,27 @@ Partial Class frmFaultCal
         'ColumnHeader23
         '
         Me.ColumnHeader23.Text = "Connected Node"
-        Me.ColumnHeader23.Width = 103
-        '
-        'ColumnHeader25
-        '
-        Me.ColumnHeader25.Text = "Generator Type"
+        Me.ColumnHeader23.Width = 93
         '
         'ColumnHeader26
         '
         Me.ColumnHeader26.Text = "Positive Seq Impedance (Re)"
-        Me.ColumnHeader26.Width = 127
+        Me.ColumnHeader26.Width = 150
         '
         'ColumnHeader27
         '
         Me.ColumnHeader27.Text = "Positive Seq Impedance (Im)"
-        Me.ColumnHeader27.Width = 150
+        Me.ColumnHeader27.Width = 147
         '
         'ColumnHeader28
         '
         Me.ColumnHeader28.Text = "Negative Seq Impedance (Re)"
-        Me.ColumnHeader28.Width = 160
+        Me.ColumnHeader28.Width = 156
         '
         'ColumnHeader29
         '
         Me.ColumnHeader29.Text = "Negative Seq Impedance (Im)"
-        Me.ColumnHeader29.Width = 160
+        Me.ColumnHeader29.Width = 157
         '
         'ColumnHeader30
         '
@@ -1555,15 +1582,211 @@ Partial Class frmFaultCal
         'ColumnHeader31
         '
         Me.ColumnHeader31.Text = "Zero Seq Impedance (Im)"
-        Me.ColumnHeader31.Width = 61
+        Me.ColumnHeader31.Width = 132
         '
         'ColumnHeader32
         '
         Me.ColumnHeader32.Text = "Ground Impedance (Re)"
+        Me.ColumnHeader32.Width = 128
         '
         'ColumnHeader33
         '
         Me.ColumnHeader33.Text = "Ground Impedance (Im)"
+        Me.ColumnHeader33.Width = 123
+        '
+        'ColumnHeader25
+        '
+        Me.ColumnHeader25.Text = "Generator Type"
+        Me.ColumnHeader25.Width = 86
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label33.Location = New System.Drawing.Point(454, 234)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(73, 13)
+        Me.Label33.TabIndex = 98
+        Me.Label33.Text = "Rated Current"
+        '
+        'tabIIDG
+        '
+        Me.tabIIDG.Controls.Add(Me.ListView2)
+        Me.tabIIDG.Controls.Add(Me.GroupBox10)
+        Me.tabIIDG.Location = New System.Drawing.Point(4, 22)
+        Me.tabIIDG.Name = "tabIIDG"
+        Me.tabIIDG.Padding = New System.Windows.Forms.Padding(3)
+        Me.tabIIDG.Size = New System.Drawing.Size(1012, 502)
+        Me.tabIIDG.TabIndex = 6
+        Me.tabIIDG.Text = "IIDG"
+        Me.tabIIDG.UseVisualStyleBackColor = True
+        '
+        'ListView2
+        '
+        Me.ListView2.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader46, Me.ColumnHeader47, Me.ColumnHeader48, Me.ColumnHeader49, Me.ColumnHeader50, Me.ColumnHeader51, Me.ColumnHeader52, Me.ColumnHeader53, Me.ColumnHeader54})
+        Me.ListView2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ListView2.FullRowSelect = True
+        Me.ListView2.GridLines = True
+        Me.ListView2.HideSelection = False
+        Me.ListView2.Location = New System.Drawing.Point(3, 6)
+        Me.ListView2.Name = "ListView2"
+        Me.ListView2.Size = New System.Drawing.Size(624, 493)
+        Me.ListView2.Sorting = System.Windows.Forms.SortOrder.Ascending
+        Me.ListView2.TabIndex = 8
+        Me.ListView2.UseCompatibleStateImageBehavior = False
+        Me.ListView2.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader46
+        '
+        Me.ColumnHeader46.Text = "#"
+        Me.ColumnHeader46.Width = 40
+        '
+        'ColumnHeader47
+        '
+        Me.ColumnHeader47.Text = "Start"
+        Me.ColumnHeader47.Width = 40
+        '
+        'ColumnHeader48
+        '
+        Me.ColumnHeader48.Text = "End"
+        Me.ColumnHeader48.Width = 40
+        '
+        'ColumnHeader49
+        '
+        Me.ColumnHeader49.Text = "Positive Seq Impedance (Re)"
+        Me.ColumnHeader49.Width = 150
+        '
+        'ColumnHeader50
+        '
+        Me.ColumnHeader50.Text = "Positive Seq Impedance (Im)"
+        Me.ColumnHeader50.Width = 150
+        '
+        'ColumnHeader51
+        '
+        Me.ColumnHeader51.Text = "Negative Seq Impedance (Re)"
+        Me.ColumnHeader51.Width = 160
+        '
+        'ColumnHeader52
+        '
+        Me.ColumnHeader52.Text = "Negative Seq Impedance (Im)"
+        Me.ColumnHeader52.Width = 160
+        '
+        'ColumnHeader53
+        '
+        Me.ColumnHeader53.Text = "Zero Seq Impedance (Re)"
+        Me.ColumnHeader53.Width = 140
+        '
+        'ColumnHeader54
+        '
+        Me.ColumnHeader54.Text = "Zero Seq Impedance (Im)"
+        Me.ColumnHeader54.Width = 140
+        '
+        'GroupBox10
+        '
+        Me.GroupBox10.BackColor = System.Drawing.SystemColors.Control
+        Me.GroupBox10.Controls.Add(Me.Label32)
+        Me.GroupBox10.Controls.Add(Me.Label47)
+        Me.GroupBox10.Controls.Add(Me.Label50)
+        Me.GroupBox10.Controls.Add(Me.Label61)
+        Me.GroupBox10.Controls.Add(Me.TextBox2)
+        Me.GroupBox10.Controls.Add(Me.TextBox4)
+        Me.GroupBox10.Controls.Add(Me.Label51)
+        Me.GroupBox10.Controls.Add(Me.TextBox3)
+        Me.GroupBox10.Controls.Add(Me.Label60)
+        Me.GroupBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox10.Location = New System.Drawing.Point(660, 19)
+        Me.GroupBox10.Name = "GroupBox10"
+        Me.GroupBox10.Size = New System.Drawing.Size(333, 458)
+        Me.GroupBox10.TabIndex = 0
+        Me.GroupBox10.TabStop = False
+        Me.GroupBox10.Text = "Inverter Interface Distributed Generator"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Location = New System.Drawing.Point(48, 61)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(88, 13)
+        Me.Label32.TabIndex = 107
+        Me.Label32.Text = "Connected Node"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label47.Location = New System.Drawing.Point(276, 143)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(27, 13)
+        Me.Label47.TabIndex = 105
+        Me.Label47.Text = "MW"
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label50.Location = New System.Drawing.Point(48, 143)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(57, 13)
+        Me.Label50.TabIndex = 104
+        Me.Label50.Text = "Power Out"
+        '
+        'Label61
+        '
+        Me.Label61.AutoSize = True
+        Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label61.Location = New System.Drawing.Point(276, 179)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(27, 13)
+        Me.Label61.TabIndex = 99
+        Me.Label61.Text = "kVA"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.TextBox2.Location = New System.Drawing.Point(171, 140)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(86, 20)
+        Me.TextBox2.TabIndex = 103
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.TextBox4.Location = New System.Drawing.Point(171, 176)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(86, 20)
+        Me.TextBox4.TabIndex = 97
+        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label51
+        '
+        Me.Label51.AutoSize = True
+        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label51.Location = New System.Drawing.Point(276, 217)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(27, 13)
+        Me.Label51.TabIndex = 102
+        Me.Label51.Text = "kVA"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.TextBox3.Location = New System.Drawing.Point(171, 214)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(86, 20)
+        Me.TextBox3.TabIndex = 100
+        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.Label60.Location = New System.Drawing.Point(48, 217)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(88, 13)
+        Me.Label60.TabIndex = 101
+        Me.Label60.Text = "Maximum Current"
         '
         'tabFaultCalSet
         '
@@ -1985,199 +2208,6 @@ Partial Class frmFaultCal
         Me.Label39.TabIndex = 5
         Me.Label39.Text = "Fault Calculation Log"
         '
-        'tabIIDG
-        '
-        Me.tabIIDG.Controls.Add(Me.ListView2)
-        Me.tabIIDG.Controls.Add(Me.GroupBox10)
-        Me.tabIIDG.Location = New System.Drawing.Point(4, 22)
-        Me.tabIIDG.Name = "tabIIDG"
-        Me.tabIIDG.Padding = New System.Windows.Forms.Padding(3)
-        Me.tabIIDG.Size = New System.Drawing.Size(1012, 502)
-        Me.tabIIDG.TabIndex = 6
-        Me.tabIIDG.Text = "IIDG"
-        Me.tabIIDG.UseVisualStyleBackColor = True
-        '
-        'GroupBox10
-        '
-        Me.GroupBox10.BackColor = System.Drawing.SystemColors.Control
-        Me.GroupBox10.Controls.Add(Me.Label32)
-        Me.GroupBox10.Controls.Add(Me.TextBox5)
-        Me.GroupBox10.Controls.Add(Me.Label47)
-        Me.GroupBox10.Controls.Add(Me.Label50)
-        Me.GroupBox10.Controls.Add(Me.Label61)
-        Me.GroupBox10.Controls.Add(Me.TextBox2)
-        Me.GroupBox10.Controls.Add(Me.TextBox4)
-        Me.GroupBox10.Controls.Add(Me.Label51)
-        Me.GroupBox10.Controls.Add(Me.TextBox3)
-        Me.GroupBox10.Controls.Add(Me.Label60)
-        Me.GroupBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox10.Location = New System.Drawing.Point(660, 19)
-        Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(333, 458)
-        Me.GroupBox10.TabIndex = 0
-        Me.GroupBox10.TabStop = False
-        Me.GroupBox10.Text = "Inverter Interface Distributed Generator"
-        '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Label47.Location = New System.Drawing.Point(276, 143)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(27, 13)
-        Me.Label47.TabIndex = 105
-        Me.Label47.Text = "MW"
-        '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Label50.Location = New System.Drawing.Point(48, 143)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(57, 13)
-        Me.Label50.TabIndex = 104
-        Me.Label50.Text = "Power Out"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.TextBox2.Location = New System.Drawing.Point(171, 140)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(86, 20)
-        Me.TextBox2.TabIndex = 103
-        Me.TextBox2.Text = "100"
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'Label51
-        '
-        Me.Label51.AutoSize = True
-        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Label51.Location = New System.Drawing.Point(276, 217)
-        Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(27, 13)
-        Me.Label51.TabIndex = 102
-        Me.Label51.Text = "kVA"
-        '
-        'Label60
-        '
-        Me.Label60.AutoSize = True
-        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Label60.Location = New System.Drawing.Point(48, 217)
-        Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(88, 13)
-        Me.Label60.TabIndex = 101
-        Me.Label60.Text = "Maximum Current"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.TextBox3.Location = New System.Drawing.Point(171, 214)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(86, 20)
-        Me.TextBox3.TabIndex = 100
-        Me.TextBox3.Text = "100"
-        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'Label61
-        '
-        Me.Label61.AutoSize = True
-        Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.Label61.Location = New System.Drawing.Point(276, 179)
-        Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(27, 13)
-        Me.Label61.TabIndex = 99
-        Me.Label61.Text = "kVA"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.TextBox4.Location = New System.Drawing.Point(171, 176)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(86, 20)
-        Me.TextBox4.TabIndex = 97
-        Me.TextBox4.Text = "100"
-        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(48, 61)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(88, 13)
-        Me.Label32.TabIndex = 107
-        Me.Label32.Text = "Connected Node"
-        '
-        'TextBox5
-        '
-        Me.TextBox5.BackColor = System.Drawing.SystemColors.Window
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
-        Me.TextBox5.Location = New System.Drawing.Point(171, 58)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.ReadOnly = True
-        Me.TextBox5.Size = New System.Drawing.Size(94, 20)
-        Me.TextBox5.TabIndex = 106
-        '
-        'ListView2
-        '
-        Me.ListView2.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader46, Me.ColumnHeader47, Me.ColumnHeader48, Me.ColumnHeader49, Me.ColumnHeader50, Me.ColumnHeader51, Me.ColumnHeader52, Me.ColumnHeader53, Me.ColumnHeader54})
-        Me.ListView2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ListView2.FullRowSelect = True
-        Me.ListView2.GridLines = True
-        Me.ListView2.HideSelection = False
-        Me.ListView2.Location = New System.Drawing.Point(3, 6)
-        Me.ListView2.Name = "ListView2"
-        Me.ListView2.Size = New System.Drawing.Size(624, 493)
-        Me.ListView2.Sorting = System.Windows.Forms.SortOrder.Ascending
-        Me.ListView2.TabIndex = 8
-        Me.ListView2.UseCompatibleStateImageBehavior = False
-        Me.ListView2.View = System.Windows.Forms.View.Details
-        '
-        'ColumnHeader46
-        '
-        Me.ColumnHeader46.Text = "#"
-        Me.ColumnHeader46.Width = 40
-        '
-        'ColumnHeader47
-        '
-        Me.ColumnHeader47.Text = "Start"
-        Me.ColumnHeader47.Width = 40
-        '
-        'ColumnHeader48
-        '
-        Me.ColumnHeader48.Text = "End"
-        Me.ColumnHeader48.Width = 40
-        '
-        'ColumnHeader49
-        '
-        Me.ColumnHeader49.Text = "Positive Seq Impedance (Re)"
-        Me.ColumnHeader49.Width = 150
-        '
-        'ColumnHeader50
-        '
-        Me.ColumnHeader50.Text = "Positive Seq Impedance (Im)"
-        Me.ColumnHeader50.Width = 150
-        '
-        'ColumnHeader51
-        '
-        Me.ColumnHeader51.Text = "Negative Seq Impedance (Re)"
-        Me.ColumnHeader51.Width = 160
-        '
-        'ColumnHeader52
-        '
-        Me.ColumnHeader52.Text = "Negative Seq Impedance (Im)"
-        Me.ColumnHeader52.Width = 160
-        '
-        'ColumnHeader53
-        '
-        Me.ColumnHeader53.Text = "Zero Seq Impedance (Re)"
-        Me.ColumnHeader53.Width = 140
-        '
-        'ColumnHeader54
-        '
-        Me.ColumnHeader54.Text = "Zero Seq Impedance (Im)"
-        Me.ColumnHeader54.Width = 140
-        '
         'frmFaultCal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2212,15 +2242,17 @@ Partial Class frmFaultCal
         Me.tabDG.PerformLayout()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
+        Me.GroupBox11.ResumeLayout(False)
+        Me.GroupBox11.PerformLayout()
+        Me.tabIIDG.ResumeLayout(False)
+        Me.GroupBox10.ResumeLayout(False)
+        Me.GroupBox10.PerformLayout()
         Me.tabFaultCalSet.ResumeLayout(False)
         Me.tabFaultCalSet.PerformLayout()
         Me.GroupBox7.ResumeLayout(False)
         Me.panFaultViewer.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.tabIIDG.ResumeLayout(False)
-        Me.GroupBox10.ResumeLayout(False)
-        Me.GroupBox10.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2413,7 +2445,6 @@ Partial Class frmFaultCal
     Friend WithEvents tabIIDG As TabPage
     Friend WithEvents GroupBox10 As GroupBox
     Friend WithEvents Label32 As Label
-    Friend WithEvents TextBox5 As TextBox
     Friend WithEvents Label47 As Label
     Friend WithEvents Label50 As Label
     Friend WithEvents Label61 As Label
@@ -2432,4 +2463,7 @@ Partial Class frmFaultCal
     Friend WithEvents ColumnHeader52 As ColumnHeader
     Friend WithEvents ColumnHeader53 As ColumnHeader
     Friend WithEvents ColumnHeader54 As ColumnHeader
+    Friend WithEvents GroupBox11 As GroupBox
+    Friend WithEvents radbTurnIIDG As RadioButton
+    Friend WithEvents radbDG As RadioButton
 End Class

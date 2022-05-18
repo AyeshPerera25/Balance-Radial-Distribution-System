@@ -56,4 +56,6 @@ def calculateLineResistance(resistance_p, gmr_p, resistance_n, gmr_n, phases, le
     resistance = str(round(z_sequential[0][0],4)) + "," + str(round(z_sequential[1][1],4))
     resistance = resistance.replace('(','').replace(')','')
 
+
+
     return resistance

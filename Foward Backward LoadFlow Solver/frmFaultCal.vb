@@ -267,6 +267,20 @@ Public Class frmFaultCal
                     listLoad.Items(loadCount).SubItems.Add(" ")
 
                     loadCount += 1
+                Else
+                    listDG.Items.Add(Convert.ToString(n - linecount + 1), n - loadCount)
+                    listDG.Items(n - loadCount).SubItems.Add(passLoadData.Items(n).SubItems(1).Text)
+                    listDG.Items(n - loadCount).SubItems.Add(" ")
+                    listDG.Items(n - loadCount).SubItems.Add(" ")
+                    listDG.Items(n - loadCount).SubItems.Add(" ")
+                    listDG.Items(n - loadCount).SubItems.Add(" ")
+                    listDG.Items(n - loadCount).SubItems.Add(" ")
+                    listDG.Items(n - loadCount).SubItems.Add(" ")
+                    listDG.Items(n - loadCount).SubItems.Add(" ")
+                    listDG.Items(n - loadCount).SubItems.Add(" ")
+                    listDG.Items(n - loadCount).SubItems.Add("DG")
+
+
                 End If
 
             Next
@@ -304,18 +318,7 @@ Public Class frmFaultCal
 
     Private Sub ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs)
 
-        If cmb_gen_title.SelectedItem.Equals("Distributed Generator") Then
-            grp_DG.Visible = True
-            grp_IIDG.Visible = False
 
-        ElseIf cmb_gen_title.SelectedItem.Equals("Inverter Interface Distributed Generator") Then
-
-            grp_DG.Visible = False
-            grp_IIDG.Visible = True
-
-
-
-        End If
     End Sub
 
 
@@ -568,7 +571,40 @@ Public Class frmFaultCal
 
     End Sub
 
-    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
+    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub GroupBox11_Enter(sender As Object, e As EventArgs) Handles GroupBox11.Enter
+
+    End Sub
+
+    Private Sub radbDG_CheckedChanged(sender As Object, e As EventArgs) Handles radbDG.CheckedChanged
+        If radbDG.Checked Then
+            radbTurnIIDG.Checked = False
+            txtDGPosSqRe.Enabled = True
+            txtDGPosSqIm.Enabled = True
+            txtDGNegSqRe.Enabled = True
+            txtDGNegSqIm.Enabled = True
+            txtDGZeroSqRe.Enabled = True
+            txtDGZeroSqIm.Enabled = True
+            txtDGGndSqRe.Enabled = True
+            txtDGGndSqIm.Enabled = True
+        End If
+    End Sub
+
+    Private Sub radbTurnIIDG_CheckedChanged(sender As Object, e As EventArgs) Handles radbTurnIIDG.CheckedChanged
+        If radbTurnIIDG.Checked Then
+            radbDG.Checked = False
+            txtDGPosSqRe.Enabled = False
+            txtDGPosSqIm.Enabled = False
+            txtDGNegSqRe.Enabled = False
+            txtDGNegSqIm.Enabled = False
+            txtDGZeroSqRe.Enabled = False
+            txtDGZeroSqIm.Enabled = False
+            txtDGGndSqRe.Enabled = False
+            txtDGGndSqIm.Enabled = False
+        End If
 
     End Sub
 End Class

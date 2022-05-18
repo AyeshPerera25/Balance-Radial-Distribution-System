@@ -19,6 +19,7 @@ startTime = time.time()
 
 # Load data from excel sheet
 wb = load_workbook(filename = 'script/dat.xlsx')
+#wb = load_workbook(filename = 'dat.xlsx')
 edgesSheet = wb['edges']
 nodesSheet = wb['nodes']
 voltagesSheet = wb['voltages']
