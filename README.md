@@ -33,7 +33,9 @@ This extention dedicated for handling the fault analysis part of the developed L
 
 #Load Flow Solver software UI.
 
-![image]([https://mega.nz/file/Dvp31IxI#k9CIBXy3XFMZLIRc63Ebd32usbuCSSoYubdKQsIzP2M](https://raw.githubusercontent.com/AyeshPerera25/Balance-Radial-Distribution-System-Fault-Analyser/master/Foward%20Backward%20LoadFlow%20Solver/Snapshots/Screenshot%202022-05-19%20021336.png))
+![image](https://raw.githubusercontent.com/AyeshPerera25/Balance-Radial-Distribution-System-Fault-Analyser/master/Foward%20Backward%20LoadFlow%20Solver/Snapshots/Screenshot%202022-05-19%20021336.png)
+
+
 
 
 
