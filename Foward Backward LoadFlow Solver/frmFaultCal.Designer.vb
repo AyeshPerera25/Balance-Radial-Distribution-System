@@ -1727,9 +1727,9 @@ Partial Class frmFaultCal
         Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.Label50.Location = New System.Drawing.Point(48, 143)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(57, 13)
+        Me.Label50.Size = New System.Drawing.Size(37, 13)
         Me.Label50.TabIndex = 104
-        Me.Label50.Text = "Power Out"
+        Me.Label50.Text = "Power"
         '
         'Label61
         '
